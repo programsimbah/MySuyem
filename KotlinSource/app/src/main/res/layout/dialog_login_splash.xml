@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+        <TextView
+                android:id="@+id/title_layout_dialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/margin_small"
+                android:text="@string/title_dialog"/>
+        <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/checkbox_dialog_veriv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ver1_dialog"/>
+        <LinearLayout android:id="@+id/login_linear_layout" android:weightSum="1" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+            <Button android:id="@+id/login_button" android:layout_weight="1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/common_signin_button_text_long"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

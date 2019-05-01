@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1051968575161",
+    "firebase_url": "https://mysemah.firebaseio.com",
+    "project_id": "mysemah",
+    "storage_bucket": "mysemah.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1051968575161:android:9afd5d0416b14bc9",
+        "android_client_info": {
+          "package_name": "com.bringin.mysemah"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1051968575161-7ke9aoakbepd0uq45c5nekudmsvg2504.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bringin.mysemah",
+            "certificate_hash": "189dfafa1000853e2573f87f54f263795691d7fc"
+          }
+        },
+        {
+          "client_id": "1051968575161-i38ngvbbk1hu1s7j73fcc5bosje7srnu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFK2-hWHRdB2xKoqvBilt8y6NsjJ5JCQE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1051968575161-i38ngvbbk1hu1s7j73fcc5bosje7srnu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

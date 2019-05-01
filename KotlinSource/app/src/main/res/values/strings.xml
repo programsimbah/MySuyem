@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MySemah</string>
+
+    <!--Dialog Tek-->
+    <string name="title_dialog">Lorem porem kucem acem bacem guyem tuyem. kacem ayem tentrem kumaandem mandeng inkang
+        suyem paijem melati pandegan
+    </string>
+    <string name="ver1_dialog">Parem ecem</string>
+
+    <!--Menu Biasa-->
+    <string name="button1">Keluargaku</string>
+    <string name="button2">Perawatan Diri</string>
+    <string name="button3">Merawat Pasien</string>
+    <string name="button4">Penamganan Gejala</string>
+    <string name="button5">Catatan</string>
+</resources>
