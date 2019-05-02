@@ -1,0 +1,19 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+use_frameworks!
+
+#firebase pods
+pod 'Firebase/Core'
+pod 'Firebase/Auth'
+pod 'GoogleSignIn'
+
+target 'My Semah Ios' do
+
+end
+target 'My Semah IosTests' do
+
+end
+target 'My Semah IosUITests' do
+
+end

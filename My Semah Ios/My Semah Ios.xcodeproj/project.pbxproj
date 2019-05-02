@@ -17,6 +17,9 @@
 		10203666227AC95500E78253 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 10203665227AC95500E78253 /* logo.png */; };
 		10203667227AC95500E78253 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 10203665227AC95500E78253 /* logo.png */; };
 		10203668227AC95500E78253 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 10203665227AC95500E78253 /* logo.png */; };
+		11D390E8691BDE83887A867D /* Pods_My_Semah_IosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7C6AD1DAA07F2196369EFDB /* Pods_My_Semah_IosTests.framework */; };
+		C43FA0865B0387C83E611BF6 /* Pods_My_Semah_Ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C61FED8E0EEB906FB0975716 /* Pods_My_Semah_Ios.framework */; };
+		CCEDE407BC45E25067DC163B /* Pods_My_Semah_IosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 106602B9F966DB6C4C9539C7 /* Pods_My_Semah_IosUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,15 @@
 		10203650227AC71C00E78253 /* My_Semah_IosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_Semah_IosUITests.swift; sourceTree = "<group>"; };
 		10203652227AC71C00E78253 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10203665227AC95500E78253 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = ../../../../../../.Trash/logo.png; sourceTree = "<group>"; };
+		106602B9F966DB6C4C9539C7 /* Pods_My_Semah_IosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_My_Semah_IosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		324225AA6FF03C3DDF4BCBE8 /* Pods-My Semah Ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My Semah Ios.debug.xcconfig"; path = "Target Support Files/Pods-My Semah Ios/Pods-My Semah Ios.debug.xcconfig"; sourceTree = "<group>"; };
+		6431437D1893CA774B21B9E8 /* Pods-My Semah IosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My Semah IosUITests.debug.xcconfig"; path = "Target Support Files/Pods-My Semah IosUITests/Pods-My Semah IosUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8EDB4E3227FDADC5C6CE3F51 /* Pods-My Semah IosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My Semah IosUITests.release.xcconfig"; path = "Target Support Files/Pods-My Semah IosUITests/Pods-My Semah IosUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C61FED8E0EEB906FB0975716 /* Pods_My_Semah_Ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_My_Semah_Ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3317F3BA682F449F8F522BA /* Pods-My Semah IosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My Semah IosTests.debug.xcconfig"; path = "Target Support Files/Pods-My Semah IosTests/Pods-My Semah IosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EB71F8478E1F62ED2E559A57 /* Pods-My Semah Ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My Semah Ios.release.xcconfig"; path = "Target Support Files/Pods-My Semah Ios/Pods-My Semah Ios.release.xcconfig"; sourceTree = "<group>"; };
+		F54557FCB0C998FB5062273E /* Pods-My Semah IosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My Semah IosTests.release.xcconfig"; path = "Target Support Files/Pods-My Semah IosTests/Pods-My Semah IosTests.release.xcconfig"; sourceTree = "<group>"; };
+		F7C6AD1DAA07F2196369EFDB /* Pods_My_Semah_IosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_My_Semah_IosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C43FA0865B0387C83E611BF6 /* Pods_My_Semah_Ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11D390E8691BDE83887A867D /* Pods_My_Semah_IosTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCEDE407BC45E25067DC163B /* Pods_My_Semah_IosUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +100,8 @@
 				10203644227AC71C00E78253 /* My Semah IosTests */,
 				1020364F227AC71C00E78253 /* My Semah IosUITests */,
 				1020362E227AC71B00E78253 /* Products */,
+				7E91D9BD1565C46E7E483B13 /* Pods */,
+				F25959C91A5430B07B153BD9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,6 +155,30 @@
 			path = Media;
 			sourceTree = "<group>";
 		};
+		7E91D9BD1565C46E7E483B13 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				324225AA6FF03C3DDF4BCBE8 /* Pods-My Semah Ios.debug.xcconfig */,
+				EB71F8478E1F62ED2E559A57 /* Pods-My Semah Ios.release.xcconfig */,
+				E3317F3BA682F449F8F522BA /* Pods-My Semah IosTests.debug.xcconfig */,
+				F54557FCB0C998FB5062273E /* Pods-My Semah IosTests.release.xcconfig */,
+				6431437D1893CA774B21B9E8 /* Pods-My Semah IosUITests.debug.xcconfig */,
+				8EDB4E3227FDADC5C6CE3F51 /* Pods-My Semah IosUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F25959C91A5430B07B153BD9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C61FED8E0EEB906FB0975716 /* Pods_My_Semah_Ios.framework */,
+				F7C6AD1DAA07F2196369EFDB /* Pods_My_Semah_IosTests.framework */,
+				106602B9F966DB6C4C9539C7 /* Pods_My_Semah_IosUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,9 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10203655227AC71C00E78253 /* Build configuration list for PBXNativeTarget "My Semah Ios" */;
 			buildPhases = (
+				91C5CACA0B2E0266503D07CC /* [CP] Check Pods Manifest.lock */,
 				10203629227AC71B00E78253 /* Sources */,
 				1020362A227AC71B00E78253 /* Frameworks */,
 				1020362B227AC71B00E78253 /* Resources */,
+				089F87BDF127490E87EA5C65 /* [CP] Embed Pods Frameworks */,
+				749321C384DC71EBB84A8F6E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -162,9 +206,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10203658227AC71C00E78253 /* Build configuration list for PBXNativeTarget "My Semah IosTests" */;
 			buildPhases = (
+				251C87E2A1F409FEDCA614D9 /* [CP] Check Pods Manifest.lock */,
 				1020363D227AC71C00E78253 /* Sources */,
 				1020363E227AC71C00E78253 /* Frameworks */,
 				1020363F227AC71C00E78253 /* Resources */,
+				5DD97055002AE48236476D6F /* [CP] Embed Pods Frameworks */,
+				06A35C70E08B474485970E13 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -180,9 +227,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1020365B227AC71C00E78253 /* Build configuration list for PBXNativeTarget "My Semah IosUITests" */;
 			buildPhases = (
+				6F3D04B91ED7597636F2274A /* [CP] Check Pods Manifest.lock */,
 				10203648227AC71C00E78253 /* Sources */,
 				10203649227AC71C00E78253 /* Frameworks */,
 				1020364A227AC71C00E78253 /* Resources */,
+				FF6A0CCAC1E018E835466F15 /* [CP] Embed Pods Frameworks */,
+				9B3EE30011EFDAFAEF7AF7C8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -266,6 +316,225 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06A35C70E08B474485970E13 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-My Semah IosTests/Pods-My Semah IosTests-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-My Semah IosTests/Pods-My Semah IosTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		089F87BDF127490E87EA5C65 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-My Semah Ios/Pods-My Semah Ios-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-My Semah Ios/Pods-My Semah Ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		251C87E2A1F409FEDCA614D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-My Semah IosTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DD97055002AE48236476D6F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-My Semah IosTests/Pods-My Semah IosTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-My Semah IosTests/Pods-My Semah IosTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F3D04B91ED7597636F2274A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-My Semah IosUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		749321C384DC71EBB84A8F6E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-My Semah Ios/Pods-My Semah Ios-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-My Semah Ios/Pods-My Semah Ios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91C5CACA0B2E0266503D07CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-My Semah Ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B3EE30011EFDAFAEF7AF7C8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-My Semah IosUITests/Pods-My Semah IosUITests-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-My Semah IosUITests/Pods-My Semah IosUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF6A0CCAC1E018E835466F15 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-My Semah IosUITests/Pods-My Semah IosUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-My Semah IosUITests/Pods-My Semah IosUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		10203629227AC71B00E78253 /* Sources */ = {
@@ -446,6 +715,7 @@
 		};
 		10203656227AC71C00E78253 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 324225AA6FF03C3DDF4BCBE8 /* Pods-My Semah Ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -466,6 +736,7 @@
 		};
 		10203657227AC71C00E78253 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB71F8478E1F62ED2E559A57 /* Pods-My Semah Ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -486,6 +757,7 @@
 		};
 		10203659227AC71C00E78253 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3317F3BA682F449F8F522BA /* Pods-My Semah IosTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -507,6 +779,7 @@
 		};
 		1020365A227AC71C00E78253 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F54557FCB0C998FB5062273E /* Pods-My Semah IosTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +801,7 @@
 		};
 		1020365C227AC71C00E78253 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6431437D1893CA774B21B9E8 /* Pods-My Semah IosUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -548,6 +822,7 @@
 		};
 		1020365D227AC71C00E78253 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EDB4E3227FDADC5C6CE3F51 /* Pods-My Semah IosUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

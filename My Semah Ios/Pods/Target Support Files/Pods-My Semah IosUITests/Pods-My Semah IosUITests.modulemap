@@ -1,0 +1,6 @@
+framework module Pods_My_Semah_IosUITests {
+  umbrella header "Pods-My Semah IosUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
