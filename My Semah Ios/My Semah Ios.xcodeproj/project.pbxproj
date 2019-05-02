@@ -14,6 +14,9 @@
 		1020363B227AC71C00E78253 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10203639227AC71C00E78253 /* LaunchScreen.storyboard */; };
 		10203646227AC71C00E78253 /* My_Semah_IosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10203645227AC71C00E78253 /* My_Semah_IosTests.swift */; };
 		10203651227AC71C00E78253 /* My_Semah_IosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10203650227AC71C00E78253 /* My_Semah_IosUITests.swift */; };
+		10203666227AC95500E78253 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 10203665227AC95500E78253 /* logo.png */; };
+		10203667227AC95500E78253 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 10203665227AC95500E78253 /* logo.png */; };
+		10203668227AC95500E78253 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 10203665227AC95500E78253 /* logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,7 @@
 		1020364C227AC71C00E78253 /* My Semah IosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My Semah IosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10203650227AC71C00E78253 /* My_Semah_IosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_Semah_IosUITests.swift; sourceTree = "<group>"; };
 		10203652227AC71C00E78253 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10203665227AC95500E78253 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = ../../../../../../.Trash/logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 		1020362F227AC71B00E78253 /* My Semah Ios */ = {
 			isa = PBXGroup;
 			children = (
+				10203662227AC91F00E78253 /* Media */,
 				10203630227AC71B00E78253 /* AppDelegate.swift */,
 				10203632227AC71B00E78253 /* ViewController.swift */,
 				10203634227AC71B00E78253 /* Main.storyboard */,
@@ -123,6 +128,14 @@
 				10203652227AC71C00E78253 /* Info.plist */,
 			);
 			path = "My Semah IosUITests";
+			sourceTree = "<group>";
+		};
+		10203662227AC91F00E78253 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				10203665227AC95500E78253 /* logo.png */,
+			);
+			path = Media;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +242,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10203666227AC95500E78253 /* logo.png in Resources */,
 				1020363B227AC71C00E78253 /* LaunchScreen.storyboard in Resources */,
 				10203638227AC71C00E78253 /* Assets.xcassets in Resources */,
 				10203636227AC71B00E78253 /* Main.storyboard in Resources */,
@@ -239,6 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10203667227AC95500E78253 /* logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10203668227AC95500E78253 /* logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +448,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y89PCU7656;
 				INFOPLIST_FILE = "My Semah Ios/Info.plist";
@@ -441,6 +458,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pengembangsebelah.My-Semah-Ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -450,6 +468,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y89PCU7656;
 				INFOPLIST_FILE = "My Semah Ios/Info.plist";
@@ -459,6 +478,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pengembangsebelah.My-Semah-Ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
