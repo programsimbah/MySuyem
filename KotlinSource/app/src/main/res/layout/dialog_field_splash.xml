@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout android:layout_margin="5dp" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center" android:text="Collect Profile" android:textSize="50dp" android:layout_marginBottom="50dp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Email"/>
+        <EditText android:id="@+id/email_user" android:layout_width="match_parent" android:layout_height="wrap_content" android:editable="false"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="Name"/>
+        <EditText android:id="@+id/name_user" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Adreass"/>
+        <EditText android:id="@+id/alamat_user" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="text" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="Phone Number"/>
+        <EditText android:id="@+id/no_telp_user" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="number" />
+        <Button android:textColor="@color/White_Text" android:background="@drawable/btn_bg" android:id="@+id/confirm_btn_data" android:text="CONFIRM" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

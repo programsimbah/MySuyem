@@ -2,8 +2,6 @@ package com.pengembangsebelah.auth
 
 import android.app.Activity
 import android.content.Intent
-import android.support.v4.app.ActivityCompat.startActivityForResult
-import android.util.Log
 import com.bringin.mysemah.R
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount
@@ -12,11 +10,14 @@ import com.google.android.gms.auth.api.signin.GoogleSignInOptions
 import com.google.android.gms.common.api.ApiException
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.GoogleAuthProvider
+import com.pengembangsebelah.network.Function
+import com.pengembangsebelah.network.Result
 
 class Initializ {
     companion object {
         private const val TAG = "Auth By Pengembang Sebelah"
         private const val RC_SIGN_IN = 567
+        var LOGINWITH = "";
     }
 
     private lateinit var context: Activity
@@ -43,6 +44,8 @@ class Initializ {
         if (requestCode == RC_SIGN_IN) {
             val task = GoogleSignIn.getSignedInAccountFromIntent(data)
             try {
+                Initializ.LOGINWITH ="Google"
+                listener.Success(0)
                 // Google Sign In was successful, authenticate with Firebase
                 val account = task.getResult(ApiException::class.java)
                 firebaseAuthWithGoogle(account!!)
@@ -57,11 +60,38 @@ class Initializ {
         val credential = GoogleAuthProvider.getCredential(acct.idToken, null)
         auth.signInWithCredential(credential).addOnCompleteListener(context) { task ->
                 if (task.isSuccessful) {
-                    listener.Success()
+                    val us = auth.currentUser
+                    listener.Success(1)
+                    CheckUSer(auth);
                 } else {
                     listener.Fail(1,task.result.toString())
                 }
             }
+    }
+
+    fun CheckUSer(user: FirebaseAuth){
+        class ListenerCheck :Result{
+            override fun Succes(message: String) {
+                if(message=="ssGog") {
+                    listener.Success(3);
+                }else if(message=="su"){
+                    listener.Success(4)
+                }
+            }
+
+            override fun Failed(message: String) {
+                listener.Fail(1,"error result");
+                signOut()
+            }
+
+        }
+        val f = Function();
+        f.Check(user,ListenerCheck())
+    }
+
+    public fun SetListenenr(listener: SucessLoginListener,user: FirebaseAuth){
+        this.listener=listener
+        CheckUSer(user)
     }
 
     public fun signIn(listener: SucessLoginListener) {

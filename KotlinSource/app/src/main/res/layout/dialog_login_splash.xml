@@ -7,15 +7,13 @@
                 android:id="@+id/title_layout_dialog"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:padding="@dimen/margin_small"
-                android:text="@string/title_dialog"/>
+                android:padding="@dimen/margin_small"/>
         <android.support.v7.widget.AppCompatCheckBox
                 android:id="@+id/checkbox_dialog_veriv"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/ver1_dialog"/>
+                android:layout_height="wrap_content"/>
         <LinearLayout android:id="@+id/login_linear_layout" android:weightSum="1" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
-            <Button android:id="@+id/login_button" android:layout_weight="1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/common_signin_button_text_long"/>
+            <Button android:id="@+id/login_button" android:layout_weight="1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/common_signin_button_text_long" android:background="@drawable/btn_bg" android:textColor="@color/White_Text"/>
         </LinearLayout>
     </LinearLayout>
 
