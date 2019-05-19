@@ -11,6 +11,16 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
+        <activity android:name=".ui.activitys.ListCatatanAct"
+                  android:theme="@style/NoTitle">
+        </activity>
+        <activity android:name=".ui.activitys.MainChild"
+                  android:theme="@style/NoTitle">
+        </activity>
+        <activity android:name=".ui.activitys.Catatan"
+                  android:theme="@style/NoTitle">
+
+        </activity>
         <activity
                 android:name=".ui.activitys.SplashActivity"
                 android:theme="@style/NoTitle">
@@ -24,8 +34,9 @@
                 android:name=".ui.activitys.MainActivity"
                 android:theme="@style/NoTitle">
         </activity>
-        <activity android:name=".ui.activitys.DisplayUhuy"
-                  android:theme="@style/NoTitle">
+        <activity
+                android:name=".ui.activitys.DisplayUhuy"
+                android:theme="@style/NoTitle">
         </activity>
     </application>
 

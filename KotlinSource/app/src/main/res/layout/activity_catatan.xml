@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.activitys.MainActivity"
+        android:background="@drawable/bg">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="4" android:orientation="vertical">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="3" android:background="@color/Blue_bg">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bg_log" android:layout_margin="@dimen/margin_big"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:weightSum="5" android:layout_below="@+id/profile_account">
+                    <Button android:id="@+id/btna1" android:layout_margin="@dimen/margin_small" android:layout_weight="1" android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@drawable/btn_bg" android:textSize="@dimen/big_text" android:textColor="@color/White_Text"/>
+                    <Button android:id="@+id/btna2" android:layout_margin="@dimen/margin_small" android:layout_weight="1" android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@drawable/btn_bg" android:textSize="@dimen/big_text" android:textColor="@color/White_Text"/>
+                    <Button android:id="@+id/btna3" android:layout_margin="@dimen/margin_small" android:layout_weight="1" android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@drawable/btn_bg"  android:textSize="@dimen/big_text" android:textColor="@color/White_Text"/>
+                    <Button android:id="@+id/btna4" android:layout_margin="@dimen/margin_small" android:layout_weight="1" android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@drawable/btn_bg"  android:textSize="@dimen/big_text" android:textColor="@color/White_Text"/>
+                    <Button android:id="@+id/btna5" android:layout_margin="@dimen/margin_small" android:layout_weight="1" android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@drawable/btn_bg"  android:textSize="@dimen/big_text" android:textColor="@color/White_Text"/>
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

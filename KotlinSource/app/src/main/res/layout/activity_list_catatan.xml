@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <android.support.constraint.ConstraintLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".ui.activitys.ListCatatanAct"
+            android:background="@drawable/bg">
+        <LinearLayout android:orientation="vertical" android:weightSum="5" android:layout_width="match_parent" android:layout_height="match_parent">
+            <RelativeLayout android:layout_weight="4" android:background="@color/Blue_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+                <ImageView android:layout_margin="@dimen/margin_big" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bg_log"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+                <RelativeLayout android:id="@+id/relatif_judule" android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@color/colorPrimaryDark" >
+                    <TextView android:id="@+id/title_activity_dds" android:layout_width="match_parent"
+                              android:layout_height="wrap_content" android:text="LIST CATATAN"
+                              android:background="@color/Blue_bg"
+                              android:textColor="@color/White_Text" android:textSize="@dimen/big_text"
+                              android:textAlignment="center" android:padding="@dimen/margin_small"/>
+                </RelativeLayout>
+                <Button android:id="@+id/tambah_list" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/relatif_judule" android:layout_centerHorizontal="true" android:background="@drawable/btn_bg" android:drawableLeft="@drawable/ic_add_circle_outline_black_24dp" android:layout_margin="10dp" android:padding="10dp" android:text=" Tambah" android:textColor="@color/White_Text"/>
+                <android.support.v4.widget.SwipeRefreshLayout android:id="@+id/swipePiew" android:layout_width="match_parent"
+                                                              android:layout_height="match_parent"
+                                                              android:layout_below="@+id/tambah_list" android:layout_above="@+id/button_kembali">
+                    <android.support.v7.widget.RecyclerView
+                          android:id="@+id/RecyclePiew"
+                          android:layout_width="match_parent"
+                          android:layout_height="match_parent"
+                          android:layout_margin="5dp">
+
+                    </android.support.v7.widget.RecyclerView>
+
+                </android.support.v4.widget.SwipeRefreshLayout>
+
+
+                <Button android:id="@+id/button_kembali" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="kembali" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layout_marginBottom="20dp" android:background="@drawable/btn_bg" android:textColor="@color/White_Text"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+    </android.support.constraint.ConstraintLayout>

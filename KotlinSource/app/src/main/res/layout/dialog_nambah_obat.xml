@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+        <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/name_obat"
+                android:layout_width="match_parent"
+                android:hint="Nama Obat :"
+                android:layout_height="wrap_content"/>
+        <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/jadwal_pwmbwerian"
+                android:layout_width="match_parent"
+                android:hint="Jadwal Pemberian :"
+                android:layout_height="wrap_content"/>
+        <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/kegunaan"
+                android:layout_width="match_parent"
+                android:hint="Kegunaan :"
+                android:layout_height="wrap_content"
+                android:lines="3"/>
+        <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/epek_samping"
+                android:layout_width="match_parent"
+                android:hint="Gambaran :"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:lines="3"/>
+        <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/dokter"
+                android:layout_width="match_parent"
+                android:hint="Dokter :"
+                android:layout_height="wrap_content"/>
+
+        <LinearLayout android:id="@+id/login_linear_layout" android:weightSum="1" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+            <Button android:id="@+id/save_up_diald" android:layout_weight="1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Save" android:background="@drawable/btn_bg" android:textColor="@color/White_Text"/>
+            <Button android:id="@+id/deletd" android:layout_weight="1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Delete" android:background="@drawable/btn_bg" android:textColor="@color/White_Text"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <android.support.v7.widget.AppCompatImageButton android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:src="@drawable/ic_cancel_black_24dp"
+                                                    android:layout_gravity="right" android:id="@+id/cancel_diald"/>
+
+</android.support.v7.widget.CardView>

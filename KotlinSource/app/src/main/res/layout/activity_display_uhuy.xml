@@ -13,19 +13,20 @@ android:background="@drawable/bg">
         </RelativeLayout>
         <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
             <RelativeLayout android:id="@+id/relatif_judule" android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@color/colorPrimaryDark" >
-                <TextView android:id="@+id/title_activity" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="TITLE" android:textColor="@color/White_Text" android:textSize="@dimen/big_text" android:textAlignment="center" android:padding="@dimen/margin_small"/>
+                <TextView android:id="@+id/title_activity_dd" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="TITLE" android:textColor="@color/White_Text" android:textSize="@dimen/big_text" android:textAlignment="center" android:padding="@dimen/margin_small" android:background="@color/Blue_bg"/>
             </RelativeLayout>
             <android.support.v7.widget.CardView android:layout_width="match_parent"
                                                 android:layout_height="match_parent"
             android:layout_above="@+id/button_kembali"
                                                android:layout_below="@+id/relatif_judule" android:layout_margin="@dimen/margin_big" >
-                <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
-                    <LinearLayout android:layout_width="match_parent"
+                <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/Blue_dark_bird">
+                    <LinearLayout android:id="@+id/hajimeta" android:layout_width="match_parent"
                                   android:layout_height="wrap_content" android:orientation="vertical">
+                        <TextView android:textColor="@color/White_Text" android:id="@+id/tek_piew" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/keluargaku_dat" android:layout_margin="10dp"/>
                     </LinearLayout>
                 </ScrollView>
             </android.support.v7.widget.CardView>
-            <Button android:id="@+id/button_kembali" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="kembali" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layout_marginBottom="20dp"/>
+            <Button android:id="@+id/button_kembali" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="kembali" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layout_marginBottom="20dp" android:background="@drawable/btn_bg" android:textColor="@color/White_Text"/>
         </RelativeLayout>
     </LinearLayout>
 

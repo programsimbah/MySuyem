@@ -1,4 +1,41 @@
 <resources>
     <string name="app_name">MySemah</string>
     <string name="url_lang">https://bringingamestudio.com/mysemah/detailapp.php?lang=id</string>
+
+    <string name="keluargaku_dat">Saat Keluargaku yang Sakit berat, anda menjadi sumber dukungan bagi anggota keluarga
+        yang sakit. Banyak sekali kegiatan yang anda merawat anggota keluarga yang sakit baik saat dirawat di rumah.
+        kegiatan tersebut hampir dilakukan selama 24 jam 7 hari non stop.
+        \n\n
+        Kegiatan dalam merawat :
+        \n- Berkomunikasi dengan tim kesehatan (dokter,perawat).
+        \n- Memberikan obat dan memonitor obatnya, berurusan dengan asuransi kesehatan (BPJS atau yang lain).
+        \n- Memandikan pasien.\n- Memberikan Makanan.
+        \n- Menggantibalutan jika ada luka, dan lain-lain.
+        \n\n Banyaknya kegiatan yang dilakukan dan pada saat yang sama, anda mungkin juga tetap memiliki tanggung jawab
+        dan pekerjaan baik di rumah ataupun kantor. Merawat anggota keluarga yang sakit memiliki berbagai dampak baik
+        perasaan positif ataupun negatif.
+        \n\nDampak Positif:
+        \n- Makin kuatnya ketertarikan dan kedekatan anda dengan anggota keluarga yang anda rawat./n
+        - Kepuasan internal dan juga kebanggaan karena dapat merawat anggota keluarga sendiri.\n
+        Disamping dampak positif tersebut, tentu saja ada dampak negatif yang dapat terjadi.\n\n
+        Dampak negatif berupa:\n
+        - Kecemasan terhadap kondisi pasien. Kecemasan ini dapat terjadi misalnya anda tidak yakin apakah sudah memberi
+        obat dengan tepat atau tidak atau jangan-jangan pasien kondisinya bertambah buruk setelah anda rawat.\n
+        - Kelelahan yang berkepanjangan, marah dengan situasi yang ada dan stress namun perlu anda ingat jika dampak
+        positif dan negatif yang muncul saat merawat anggota keluarga adalah suatu hal yang normal.
+    </string>
+    <string name="perawatan_dir"></string>
+
+    <string name="kebersihan_dir"></string>
+    <string name="nutrisi_zat_dir"></string>
+    <string name="minum_obat_dir"></string>
+    <string name="spiritual_dir"></string>
+    <string name="kenyamanan_dir"></string>
+
+    <string name="nyeri_dir"></string>
+    <string name="mual_muntah_dir"></string>
+    <string name="kelelahan_dir"></string>
+    <string name="penurunan_nafsu_makan_dir"></string>
+    <string name="sesak_nafas_dir"></string>
+
 </resources>

@@ -3,6 +3,7 @@ package com.bringin.mysemah.ui.activitys
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import com.bringin.mysemah.BaseActivity
 import com.bringin.mysemah.R
@@ -30,8 +31,10 @@ class MainActivity : BaseActivity() {
         SetText()
         btn1.setOnClickListener(View.OnClickListener { Open(Datas.Display("Keluarga")) })
         btn2.setOnClickListener(View.OnClickListener { Open(Datas.Display("Perawatan Diri")) })
-
-
+        btn3.setOnClickListener(View.OnClickListener { OpenE(Datas.Display("Perawatan Pasien")) })
+        btn4.setOnClickListener(View.OnClickListener { OpenE(Datas.Display("Penanganan Gejala")) })
+        btn5.setOnClickListener(View.OnClickListener { OpenE(Datas.Display("Catatan")) })
+        Log.d("YAYA", BaseActivity.datas.user[0].keluhan!!.size.toString()+" "+BaseActivity.datas.user[0].name)
     }
 
     fun SetText(){
@@ -44,6 +47,9 @@ class MainActivity : BaseActivity() {
 
     fun Open(data : Datas.Display){
         OpenDisply(this,data)
+    }
+    fun OpenE(data : Datas.Display){
+        OpenDisplyE(this,data)
     }
 
     fun Logout(){

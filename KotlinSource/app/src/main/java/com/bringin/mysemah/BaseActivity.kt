@@ -7,10 +7,12 @@ import android.support.v7.app.AppCompatActivity
 import android.util.Log
 import com.bringin.mysemah.models.Datas
 import com.bringin.mysemah.ui.activitys.DisplayUhuy
+import com.bringin.mysemah.ui.activitys.MainChild
 import com.bringin.mysemah.ui.activitys.SplashActivity
 import com.google.firebase.auth.FirebaseAuth
 import com.pengembangsebelah.auth.Initializ
 import com.pengembangsebelah.auth.SucessLoginListener
+import com.pengembangsebelah.model.JSON
 import com.pengembangsebelah.network.DetailApp
 import com.pengembangsebelah.network.Result
 
@@ -46,10 +48,16 @@ abstract class BaseActivity : AppCompatActivity() {
 
     companion object {
         var TITLEMENU = "menrfeds"
+        lateinit var datas:JSON
     }
 
     public fun OpenDisply(contex: Activity, data: Datas.Display){
         val intent = Intent(this, DisplayUhuy::class.java)
+        intent.putExtra(TITLEMENU,data.title)
+        startActivity(intent)
+    }
+    public fun OpenDisplyE(contex: Activity, data: Datas.Display){
+        val intent = Intent(this, MainChild::class.java)
         intent.putExtra(TITLEMENU,data.title)
         startActivity(intent)
     }
