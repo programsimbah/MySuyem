@@ -18,23 +18,31 @@ import com.pengembangsebelah.network.DetailApp
 import com.pengembangsebelah.network.Function
 
 class MainActivity : BaseActivity() {
+    override fun onResume() {
+        super.onResume()
+        GetUse()
+        if(UserNow()!!.currentUser!=null) {
+            Glide.with(this).load(Function.data!!.user.get(0).avatar).into(profile_account)
+        }
+    }
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        GetUse()
 
         if(UserNow()!!.currentUser!=null) {
             Glide.with(this).load(Function.data!!.user.get(0).avatar).into(profile_account)
         }
-        profile_account.setOnClickListener(View.OnClickListener { Logout() })
+        profile_account.setOnClickListener(View.OnClickListener { ManageMent() })
         SetText()
         btn1.setOnClickListener(View.OnClickListener { Open(Datas.Display("Keluarga")) })
         btn2.setOnClickListener(View.OnClickListener { Open(Datas.Display("Perawatan Diri")) })
         btn3.setOnClickListener(View.OnClickListener { OpenE(Datas.Display("Perawatan Pasien")) })
         btn4.setOnClickListener(View.OnClickListener { OpenE(Datas.Display("Penanganan Gejala")) })
         btn5.setOnClickListener(View.OnClickListener { OpenE(Datas.Display("Catatan")) })
-        Log.d("YAYA", BaseActivity.datas.user[0].keluhan!!.size.toString()+" "+BaseActivity.datas.user[0].name)
+ //       Log.d("YAYA", BaseActivity.datas.user[0].keluhan!!.size.toString()+" "+BaseActivity.datas.user[0].name)
     }
 
     fun SetText(){
@@ -52,13 +60,10 @@ class MainActivity : BaseActivity() {
         OpenDisplyE(this,data)
     }
 
-    fun Logout(){
-
-        SignOut()
-        val intent = Intent(this,SplashActivity::class.java)
+    fun ManageMent(){
+        val intent = Intent(this,ProfilManageActivity::class.java)
         startActivity(intent)
-        finish()
-
     }
+
 
 }

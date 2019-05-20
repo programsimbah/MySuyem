@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MySemah</string>
+    <string name="app_name">My Semah</string>
     <string name="url_lang">https://bringingamestudio.com/mysemah/detailapp.php?lang=id</string>
 
     <string name="keluargaku_dat">Saat Keluargaku yang Sakit berat, anda menjadi sumber dukungan bagi anggota keluarga
@@ -15,7 +15,7 @@
         dan pekerjaan baik di rumah ataupun kantor. Merawat anggota keluarga yang sakit memiliki berbagai dampak baik
         perasaan positif ataupun negatif.
         \n\nDampak Positif:
-        \n- Makin kuatnya ketertarikan dan kedekatan anda dengan anggota keluarga yang anda rawat./n
+        \n- Makin kuatnya ketertarikan dan kedekatan anda dengan anggota keluarga yang anda rawat.\n
         - Kepuasan internal dan juga kebanggaan karena dapat merawat anggota keluarga sendiri.\n
         Disamping dampak positif tersebut, tentu saja ada dampak negatif yang dapat terjadi.\n\n
         Dampak negatif berupa:\n
@@ -24,18 +24,202 @@
         - Kelelahan yang berkepanjangan, marah dengan situasi yang ada dan stress namun perlu anda ingat jika dampak
         positif dan negatif yang muncul saat merawat anggota keluarga adalah suatu hal yang normal.
     </string>
-    <string name="perawatan_dir"></string>
+    <string name="perawatan_dir">Jika anda merawat orang yang anda kasihi, hal tersebut merupakan suatu tindakanyang
+        sangat mulia. Namun perlu di ingat jika anda juga tetap perlu merawat dan memenuhi kebutuhan anda sendiri
+        sehingga anda dapat merawatdengan optimal.\n
+        Bagaimana cara melakukannya?\n
+        - tetap perlu bersosialisasi dengan teman dan saudara,\n
+        - tetap perlu me time\n
+        - keperluan ini mperlu dipikirkan dan direncanakan kapan akan dijalankan, sehingga anda dapat melakukannya dan
+        hal tersebut berdampak seperti mengecas kembali energi baik fisik maupun psikologis.\n
+        - meminta bantuan anggota keluarga lain untuk merawat orang yang anda kasihi untuk sementara waktu.
+    </string>
 
-    <string name="kebersihan_dir"></string>
-    <string name="nutrisi_zat_dir"></string>
-    <string name="minum_obat_dir"></string>
-    <string name="spiritual_dir"></string>
-    <string name="kenyamanan_dir"></string>
+    <string name="kebersihan_dir">Memandikan\n\n
+        1. Pasang satu handuk besar sebagai alas si sakit.\n
+        2. Buka pakaian si sakit dan selimuti dia dengan handuk besar mulai dari lehersampai jari-jari kakinya.\n
+        3. Cuci, basuh dan keringkan wajah telinga, dan leher. Tidak semua orang suka mencuci muka dengan sabun, lebih
+        baik anda tanyakan dulu.\n
+        4. Cuci, basuh, dan keringkan lengan orang yang sakit secara bergantian.\n5. Lipat handuk penutup tubuh sedikit
+        demi sedikit sesuai dengan bagian dibersihkan. jaga supaya penderita selalu tertutup handuk, kecuali bagian
+        tubuh yang sedang dibersihkan.\n
+        6. Cuci, basuh, dan keringkan dada, perut, dan kaki secara bergantian.\n
+        7. Bila memungkinkan, biarkan si sakit membasih daerah kemaluannya sendiri. Apabila dia tidak bisa, bantulah
+        untuk memberihkanya.\n
+        8. Miringkan orang yang sakit cuci, basuh, dan keringkan punggungnya.\n
+        9. Usapkan bedak pada leher, lipatlengan , dan kemaluan dia bila dia mau.\n
+        10. Pijat dengan menggunakan lanolin bagian tubuh yang terkena oleh tempat tidur untuk memperbaiki peredaraan
+        darah\n\n
+        Membersihkan rongga mulut\n\n
+        1. Siapkan sikat gigi (jika masih sada), stik kayu yang dilapisi kasa, cairan mulut (air bersih, betadine oral,
+        air dan baking soda)\n
+        2. Minta pasien untuk duduk jika memungkinkan. Jika tidak mampu duduk, perhatikan kemungkinan tersedak.\n
+        3. Basahi sikat/stik yang dilapisi kasa. Bersihkan rongga mulut dengan perlahan, dengan gerakan memutar bagian
+        dalam, luar dan gigi.\n
+        4. Ulangi sampai bersih.\n5. Lap bagian luar rongga mulut.\n
+        6. Jika bibir pasien kering, berikan pelembab bibir.
+    </string>
+    <string name="nutrisi_zat_dir">Makanan yang baik sangat penting bagi pasien karena dapat berfungsi sebagai
+        berikut:\n\n\n- Menjaga kekebalan tubuh\n- Mempercepat penyembuahan luka dan perbaikan jaringan\n- Sesuai dengan
+        kebutuhan tubuh untuk melawan penyakit\n- Meningkatkan kualitas hidup\n\n Hal yang perlu di ingat:\n- Kebutuhan
+        makan berbeda sehingga porsi yang disediakan juga berbeda\n- Jika pasien merasa cemas, ingatkan untuk melakukan
+        tekhnik relaksasi, dapat ditambahkan Muroltal atau bacaan kalimat (Subhanallah wal hamdulilah wa laa ilaaha illa
+        llahu wallahu akbar)\n\nSumber Protein\n- Daging sapi, ayam, ikan\n- Telur\n- Susu, Keju, Yougurt, mentega\n-
+        Kacang - kacangan\n- Minyak ikan\n\n
+        Anda dapat menambahkan\n - Untuk makanan gurih: minyak, mentega, alpukat, santan, kacang-kacangan\n - Unuk
+        makanan manis: madu, gula, coklat,eskrim\n\nMinuman bergizi:\n- Susu ekstra, dengan cara: tambahkan satu cangkir
+        susu bubuk kedalam 1 liter susu kental manis ke dalam 2 cangkir susu. Simpan di kulkas dan dapat diberikan
+        sebagai ganti air saat membuat kopi atau teh\n- Buatlah milkshake atau smoothies dengan mencampurkan susu full
+        cream dan bahan lain (susu bubuk, buah, es krim atau kopi)\n- Jus buah atau sayur dengan menambahkan bubuk
+        protein atau bubuk spirulina\n\nNutrisi tambahan:\n- Susu bubuk tinggi protein misalnya Ensure atau Sustagen\n-
+        Susu kotak misalnya Ensure Plus, Sustagen\n
+        - Protein bubuk\n\nTips:\n- Berikan makanan ringan 6-8 kali dalam porsi kecil. Pastikan makanan tersebut mudah
+        dimakan atau diminum\n
+        - Berikan makanan tinggi protein dan tinggi kalori\n
+        - Ingatkan pasien untuk makan secara lapar, tidak perlu sesuai jadwal makan biasanya.\n
+        - Berikan obat nyeri sesuai jadwal sehingga pasien tidak mera sa nyeri yang dapat mengganggu nafsu makan\n
+        - Anjurkan untuk makan di tempat yang disukai, misalknya dekat taman atau di teras\n
+        - Hindari memberikan makanan dengan bau menyengat\n
+        - Sajikan makanan dalam keadaan hangat\n
+        - Sediakan makanan tinggi protein dan energi, misal: es krim, yougurt, keju dan coklat.
+    </string>
+    <string name="minum_obat_dir">1. Minum air putih terlebih dahulu. Hal ini untuk melembabkan tenggorokan. Teruh pil
+        di lidah bagianbelakangdan minum air. Selain itu usahakan untuk menelan dalam kondisi relaksi\n
+        2. Campur pilobat dalam es krim, atau pudding. Sebelum melakukan hal ini cek terlebih dahulu mana obat yang
+        dapat dihancurkan.\n
+        3. Minum obat dengan pisang. kunyah pisang sampai agaklembut, masukan obat ke mulut dan telan\n
+        4. Konsultasikan dengan apoteker jika ada sediaan selain pil\n
+        5. Diskusikan dengan dokter atau perawat secepatnya jika ada efek samping yang tidak di harapkan
+    </string>
+    <string name="spiritual_dir">Tindakan yang dapat dilakukan memberikan dukungan spiritual:\n
+        1. Ingatkan pasien untuk beribadah sesuai kemampuanya.\n
+        2. Ingatkan pasien untuk dzikir dan mengingat Yang Maha Pencipta, Pengasih dan Penyayang\n
+        3. Bantu pasien untuk menjalankan ibadah, misalnya wudhu\n
+        4. Stel murotal Al Quran atau music yang disukai pasien\n
+        5. Ajak pasien untuk berdoa bersama\n
+        6. Undang pemuka agama untuk datang dan berdoa bersama\n
+        7. Mengajak pasien untuk saling memaafkan\n
+        8. Jika pasien merasa cemas, ingatkan untuk melakukan teknik relaksasi, dapat ditambahkan Murotal atau bacaan
+        kalimat thayibah (Subhanallah wal hamdulilah wa laa ilaaha illa llahu wallahu akbar)
+    </string>
+    <string name="kenyamanan_dir">Mulut kering:\n
+        - Berikan es batu kecil atau potongan lemon beku\n
+        - Berikan lip balm\n
+        - Berikan permen atau permen karet rendah gla\n
+        - Hindari alkohol, kafein\n
+        - Lembutkan makanan dengan memberikan kuah\n
+        - Minum lebih banyak dan minum saat makan\n\n
+        Air liur kental\n
+        - Minum air dicampur perasan lemon\n
+        - Guanakan obat kumur yang tanpa alkohol\n
+        - Sikat gigi secara teratur\n\n
+        Nyeri pada mulut/kerongkongan\n
+        - Diskusikan dengan dokter untuk mendapatkanobat kumur anestesi\n
+        - Berikan makanan yang tidak menyengat\n
+        - Hindari makanan pedas, asam, terlalu asin\n
+        - Hindari makaanan yang sangat dingin atau panas\n\n
+        Perubahan rasa\n
+        - Anjurkan untuk tidak makan atau minum saat tidak merasa nyaman\n
+        - Berikan permen karet rendah gula\n
+        - Makanan yang sedikit asam seperti lemon atau jeruk dapat memperbaiki rasa\n
+        - Beberapa makanan terasa lebih enak saat dingin atau suhu ruangan\n
+        - Gunakan peralatan makan dari plastik jika makanan terasa seperti logam\n\n
+        Konstipasi\n
+        - Anjurkan untuk berolahraga ringan jika memungkinkan\n
+        - Batasi kopi dan alkohol\n
+        - Anjurkan untuk minum cukup
+    </string>
 
-    <string name="nyeri_dir"></string>
-    <string name="mual_muntah_dir"></string>
-    <string name="kelelahan_dir"></string>
-    <string name="penurunan_nafsu_makan_dir"></string>
-    <string name="sesak_nafas_dir"></string>
+    <string name="nyeri_dir">Nyeri dapat:\n
+        - Dapat membaik dan memburuk karena hal-hal tertentu\n
+        - Rasa tidak nyaman yang datang dan pergi\n
+        - Intensitas bervariasi (ringan, sedang dan berat)\n
+        - Menurunkan aktifitas\n
+        - Mengganggu aktifitas tidur sehingga istirahat menjadi berkurang\n
+        - Mudah merasa marah\n\n
+        Teknik non-obat untuk mengurangi nyeri:\n
+        a.Pemijitan\n
+        Kontra indikasi dilakukan pemijitan\n
+        - Area tubuh yang dilakukan radioterapi\n
+        - Seluruh tubuh yang dilakukan radiasi sebelum transplatasi sumsum tulang belakang\n
+        - Area tubuh yang terdapat luka dan dalam proses penyembuhan\n
+        - Area tubuh yang terdapat tumor\n\n
+        Teknik pemijatan sederhana yang dapat dilakukan adalah sebagai berikut:\n
+        - Mengusap dahi, tangan dan kaki dengan menggunakan lotion atau minyak (zaitun, kelapa)\n
+        - Menggunakan gerakan memutar secara perlahan. Hal dilakukan dengan ujung jari, dengan tekanan sangat ringan.\n
+        - Menggunakan handuk hangat untuk ditempelkan di kaki pasien\n
+        - Saat dipijat, pasien diminta untuk melakukan nafas dalam secara perlahan dan berulang-ulang.\n\n
+        b.Nafas dalam\n
+        Anda dapat membantu pasien untuk melakukan latihan nafas dalam 1 sebagaiberikut,\n
+        - Anjurkan untuk tarik nafas dan buang nafas secara cepat melalui hidung dan muut dalam keadaan tertutup namun
+        relaks. Antara tarik nafas dan buang nafas harus dilakukan simbang, sesingkat mungkin.\n
+        - Dorong pasien untuk melakukan tiga kali dalam satu detik karena hal ini dapat membuat pergerakan cepet pada
+        dinding diagfragma. Setelah melakukan satu siklus, anjurkan pasien unuk bernafas dengan normal.\n
+        - Saat melatihkan teknik ini, jangan lakukan lebih dari 15 detik pada saat latihan pertama. Durasi latihan dapat
+        ditingkatkan 5 detik setiap latihan sampai bisa melakukan satu menit secara penuh.\n
+        Pada latihan nafas dalam 2 dapat di ingat lebih mudah dalam hitungan 4-7-8. Proporsi hitungan ini sangat
+        penting, apabila pasien tidak mampu melakukan maka anda dapat menghitung lebih cepat. Dan jika sudah terlatih,
+        maka hitungan dapat diperlambat. Untuk teknik dalam 2 ini, anda dapat menginstrusikan sebagai berikut:\n
+        - Buang nafas melalui mulut hingga terdengar suara mendesisi\n
+        - Tarik nafas melalui hidup dalam empat ketukan, dan mulut dalam keadaan tertutup.\n
+        - Tahan nafas dalam tujuh ketuk hitungan.\n
+        - Buang nafas melalui mulut, dalam delapan ketukan.\n
+        - Anjurkan pasien untuk mengulangi sebanyak tiga kali.
+    </string>
+    <string name="mual_muntah_dir">
+        Tanda gejala yang mungkin muncul:\n
+        - Merasa mual dan tidak dapat makan\n
+        - Tidak dapat menelan obat\n
+        - Merasa nyaman saat istiraht namun mual saat bergerak\n
+        - Muntah baik terkadang ataupun sering\n\n
+        Tips mengatasi mual dan muntah:\n
+        - Sesuaikan pola makan dengan tingkat keparahan mual dan muntah. Anda dapat memberikan makan ke anggota keluarga
+        yang sakit dalam porsi kecil.\n
+        - Berikan obat anti muntah setiap 4 jam. Berikan 30 menit sebelum memberikan obat yang lain.\n
+        - Anjurkan/bantu anggota keluarga yang sakit untuk kumur-kumur dengan mouthwash ringan\n
+        - Jika muntah, segera bersihkan area yang terkena
+    </string>
+    <string name="kelelahan_dir">Berikut tanda-tanda kelelahan yang mungkin muncul:\n
+        - Merasa tidak memiliki energi dan hanya dapat berbaring di tempat tidur seharian\n
+        - Mengalami sesak nafas saat beraktivitas ringan\n
+        - Mengalami kesulitan berkonsentrasi\n
+        - Merasa mudah emosi dengan keluarga ataupun kawan\n
+        - Tidak menikmati hal-hal yang sebelumnya dilakukan, misalnya mengobrol dengan teman, membaca atau memasak\n\n
+        Tindakan untuk mengatasi kelelahan\n
+        - Mengatur waktu istirahat dan tidur supaya tidak berlebihan\n
+        - Melakukan olah raga ringan, misalnya: berjalan, berenang\n
+        - Mengatur makan dan minum. Makan makanan tinggi energy (misal: Kentang, Ketela) dan cukup minum\n
+        - Melakukan relaksasi dengan nafas dalam\n
+        - Minum air hangat sebelum tidur\n
+        - Membuat rencana kegiatan
+    </string>
+    <string name="penurunan_nafsu_makan_dir">
+        Cara mengatasi penurunan makanan:\n
+        - Makan snak yang bergizi, misalnya sup, es krim\n
+        - Berikan makanan dalam porsi kecil dan ringan. Berikan makaanan kesukaan yang lembut dan mudah dimakan\n
+        - Temani saat pasien ingin makan\n
+        - Atur posisi yang nyaman untuk makan\n
+        - Anjurkan pasien agar membersihkan mulut sebelum makan\n
+        - Jika pasien tidak nafsu makan, pahami kondisi pasien dan jangan memaksa untuk makan
+    </string>
+    <string name="sesak_nafas_dir">
+        Tanda-tanda yang dapat anda kenali jika pasien mengalami sesak nafas adalah:\n
+        - Terlihat sesak saat beraktifitas, memakai pakaian ataau bahkan saat berbicara\n
+        - Terlihat sesak bahkan saat istirahat\n
+        - Terdengar suara nafas seperti tersumbat\n
+        - Batuk disertai dahak\n
+        - Terlihat ingin mengeluarkan dahak namun tidak bisa mengeluarkannya\n
+        - Terlalu cemas dan takut jika tidak bisa bernafas dengan normal\n\n
+        Tindakan yang dapat dilakukan untuk mengurangi sesak nafas:\n
+        1. Anjurkan untuk beristirahat secara teratur saat beraktivitas, jika sesak nafas meningkat saat beraktivitas\n
+        2. Berikan obat untuk mengatasi sesak nafas yang telah diresepkan sesegera mungkin\n
+        3. Berikan udara segar sebanyak mungkin, misal dengan membuka jendela dan pintu atau menggunakan kipas\n
+        4. Anjurkan pasien untuk mengganti baju yang lebih loggar jika sesak\n
+        5. Berikan bantal saat duduk dan tidur sehingga posisi setengah duduk\n
+        6. Anjurkan pasien untuk tenang, karena ketegangan akan menambah rasa sesak\n
+        7. Jika mengobrol membuat pasien sesak, batasi waktu kunjungan\n
+        8. Jika bisa,sediakan humidifier\n
+        9. Anjurkan pasien untuk merubah posisi setengah duduk, dengan disangga bantal
+    </string>
 
 </resources>

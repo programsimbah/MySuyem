@@ -8,6 +8,50 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:1051968575161:android:59e16c4d334b42b3",
+        "android_client_info": {
+          "package_name": "com.BringIn.MySemah"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1051968575161-gf4qopa6d65p8ncknj4h2cbmtbata1be.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.BringIn.MySemah",
+            "certificate_hash": "189dfafa1000853e2573f87f54f263795691d7fc"
+          }
+        },
+        {
+          "client_id": "1051968575161-i38ngvbbk1hu1s7j73fcc5bosje7srnu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFK2-hWHRdB2xKoqvBilt8y6NsjJ5JCQE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1051968575161-vobk2dvlvs1tgpqibe54qbimnhkl9vlk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1051968575161-l03uq0btalddfrpl6sge3i5ob66aq8mf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.pengembangsebelah.MySemah"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:1051968575161:android:9afd5d0416b14bc9",
         "android_client_info": {
           "package_name": "com.bringin.mysemah"
@@ -36,8 +80,15 @@
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1051968575161-i38ngvbbk1hu1s7j73fcc5bosje7srnu.apps.googleusercontent.com",
+              "client_id": "1051968575161-vobk2dvlvs1tgpqibe54qbimnhkl9vlk.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "1051968575161-l03uq0btalddfrpl6sge3i5ob66aq8mf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.pengembangsebelah.MySemah"
+              }
             }
           ]
         }

@@ -14,7 +14,7 @@ android:background="@drawable/bg">
             </RelativeLayout>
             <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
 
-                <ImageView android:id="@+id/profile_account" android:layout_width="70dp" android:layout_height="70dp" android:layout_alignParentRight="true" android:src="@mipmap/ic_launcher_round" android:padding="@dimen/margin_small" android:clickable="true"/>
+                <ImageView android:id="@+id/profile_account" android:layout_width="70dp" android:layout_height="70dp" android:layout_alignParentRight="true" android:src="@mipmap/ic_launcher" android:padding="@dimen/margin_small" android:clickable="true"/>
                 <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:weightSum="5" android:layout_below="@+id/profile_account">
                     <Button android:id="@+id/btn1" android:layout_margin="@dimen/margin_small" android:layout_weight="1" android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@drawable/btn_bg" android:textSize="@dimen/big_text" android:textColor="@color/White_Text"/>
                     <Button android:id="@+id/btn2" android:layout_margin="@dimen/margin_small" android:layout_weight="1" android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@drawable/btn_bg" android:textSize="@dimen/big_text" android:textColor="@color/White_Text"/>

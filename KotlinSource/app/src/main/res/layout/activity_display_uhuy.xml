@@ -22,7 +22,7 @@ android:background="@drawable/bg">
                 <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/Blue_dark_bird">
                     <LinearLayout android:id="@+id/hajimeta" android:layout_width="match_parent"
                                   android:layout_height="wrap_content" android:orientation="vertical">
-                        <TextView android:textColor="@color/White_Text" android:id="@+id/tek_piew" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/keluargaku_dat" android:layout_margin="10dp"/>
+                        <TextView android:textColor="@color/White_Text" android:id="@+id/tek_piew" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/keluargaku_dat" android:layout_margin="10dp" android:textSize="50px"/>
                     </LinearLayout>
                 </ScrollView>
             </android.support.v7.widget.CardView>

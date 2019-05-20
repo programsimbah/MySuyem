@@ -91,6 +91,9 @@ class Function {
 
     }
 
+    public fun Cyn(){
+        Logins(FirebaseAuth.getInstance().currentUser!!.uid).execute()
+    }
     class Login(apikey:String,RESULT: Result) : AsyncTask<Void, Void, Void>() {
         override fun onPostExecute(result: Void?) {
             super.onPostExecute(result)
@@ -132,6 +135,47 @@ class Function {
                 res.Succes("su");
             }else{
                 res.Succes("ssGog")
+            }
+        }
+
+    }
+    public class Logins(apikey:String) : AsyncTask<Void, Void, Void>() {
+        override fun onPostExecute(result: Void?) {
+            super.onPostExecute(result)
+            Dodo(json)
+        }
+        var json =""
+
+        override fun doInBackground(vararg params: Void?): Void? {
+            with(mURL.openConnection() as HttpURLConnection) {
+                // optional default is GET
+                Log.d("YAYA", mURL.toString())
+                requestMethod = "POST"
+
+                val wr = OutputStreamWriter(getOutputStream());
+                wr.write(reqParam);
+                wr.flush();
+
+                val dataJsonAsString=Function.convertStreanToString(inputStream)
+                // val json= JSONObject(dataJsonAsString);
+                json = dataJsonAsString
+
+
+            }
+            return null;
+        }
+
+        var reqParam = URLEncoder.encode("username", "UTF-8") + "=" + URLEncoder.encode(apikey, "UTF-8")
+        val mURL = URL(BuildConfig.API_URL+Constant.CHECK+ apikey)
+        val key =apikey;
+
+        fun Dodo(json:String){
+            val result = Klaxon().parse<JSON>(json)
+            data = result!!
+            Log.d("YAYA","Response : "+ json+ result!!.user[0].apikey + result!!.user[0].error)
+            if(result!!.user[0].error!="access denied"){
+                BaseActivity.datas = result
+            }else{
             }
         }
 

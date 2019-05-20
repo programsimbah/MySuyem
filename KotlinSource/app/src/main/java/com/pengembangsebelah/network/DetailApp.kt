@@ -7,6 +7,7 @@ import com.bringin.mysemah.R
 import org.json.JSONObject
 import java.io.*
 import java.net.HttpURLConnection
+import java.net.SocketTimeoutException
 import java.net.URL
 
 
@@ -40,25 +41,26 @@ class DetailApp {
         var lines = ""
         var data = ""
         override fun doInBackground(vararg params: String?): String {
-            val url=URL(params[0])
-            val urlConnect = url.openConnection() as HttpURLConnection
-            urlConnect.connectTimeout=500
+            try {
+                val url=URL(params[0])
+                val urlConnect = url.openConnection() as HttpURLConnection
+                urlConnect.connectTimeout=500
 
-            val dataJsonAsString=convertStreanToString(urlConnect.inputStream)
-            val json= JSONObject(dataJsonAsString);
+                val dataJsonAsString=convertStreanToString(urlConnect.inputStream)
+                val json= JSONObject(dataJsonAsString);
 
-            APPNAME = json.getString("appname")
-            PRIVACYPOLICY =json.getString("privacyPolicy")
-            acceptPrivacyPolicy = json.getString("acceptPrivacyPolicy")
-            _btnKeluarga = json.getString("_btnKeluarga")
-            _btnperawatan = json.getString("_btnperawatan")
-            _btnmerawatpasien = json.getString("_btnmerawatpasien")
-            _penangananGejala = json.getString("_penangananGejala")
-            _catatan = json.getString("_catatan")
+                APPNAME = json.getString("appname")
+                PRIVACYPOLICY =json.getString("privacyPolicy")
+                acceptPrivacyPolicy = json.getString("acceptPrivacyPolicy")
+                _btnKeluarga = json.getString("_btnKeluarga")
+                _btnperawatan = json.getString("_btnperawatan")
+                _btnmerawatpasien = json.getString("_btnmerawatpasien")
+                _penangananGejala = json.getString("_penangananGejala")
+                _catatan = json.getString("_catatan")
 
+            }catch (e:SocketTimeoutException){
 
-
-
+            }
             return data;
         }
 

@@ -44,29 +44,34 @@ class SplashActivity : BaseActivity() {
             }
 
             override fun onFinish() {
-                loading_ProgressBar.visibility = View.GONE
-                if(FirebaseAuth.getInstance().currentUser==null) {
-                    showDialogFirst()
-                }else{
-                    class see : SucessLoginListener{
-                        override fun Success(code: Int) {
-                            isOnData = true
-                            if(code==4) {
-                                Menu()
-                            }else if(code==3){
-                                FieldAc()
+                if (DetailApp.PRIVACYPOLICY != "") {
+                    loading_ProgressBar.visibility = View.GONE
+                    if (FirebaseAuth.getInstance().currentUser == null) {
+                        showDialogFirst()
+                    } else {
+                        class see : SucessLoginListener {
+                            override fun Success(code: Int) {
+                                isOnData = true
+                                if (code == 4) {
+                                    Menu()
+                                } else if (code == 3) {
+                                    FieldAc()
 
-                            }else {
-                                isOnData =false
+                                } else {
+                                    isOnData = false
+                                }
                             }
+
+                            override fun Fail(code: Int, message: String) {
+
+                            }
+
                         }
 
-                        override fun Fail(code: Int, message: String) {
-
-                        }
-
+                        val s = Initializ().SetListenenr(see(), FirebaseAuth.getInstance())
                     }
-                    val s = Initializ().SetListenenr(see(), FirebaseAuth.getInstance())
+                }else{
+                    Loading()
                 }
             }
         }
@@ -176,7 +181,21 @@ class SplashActivity : BaseActivity() {
         val dilPhon = dialogView.no_telp_user
 
         val bucon = dialogView.confirm_btn_data
-        bucon.setOnClickListener(View.OnClickListener { PUSHUP(dilAl.text.toString(),dilPhon.text.toString(),dilnam.text.toString()) })
+        bucon.setOnClickListener(View.OnClickListener {
+            if (dilnam.text.toString() == "") {
+                dilnam.setError("field kosong")
+                //alertDialog.show()
+            }else if (dilAl.text.toString() == "") {
+                dilAl.setError("field kosong")
+                //alertDialog.show()
+            } else if(dilPhon.text.toString()  == ""){
+                dilPhon.setError("field kosong")
+                //alertDialog.show()
+            } else{
+                Log.d("YAYA","name: "+dilnam.text.toString()+" alamat: "+dilAl.text.toString()+" phon: "+dilPhon.text.toString())
+                PUSHUP(dilAl.text.toString(),dilPhon.text.toString(),dilnam.text.toString())
+            }
+        })
 
         alertDialog = dialogBuilder.create()
         alertDialog.setCanceledOnTouchOutside(false)
